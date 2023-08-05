@@ -1,0 +1,132 @@
+.shopping {
+    font-weight: bold;
+
+}
+
+.center1 {
+    text-align: center;
+}
+.navbar{
+    border: none;
+    background-color: red;
+    /* background-color: none;
+    border-style: none;
+    border-width: none; */
+
+}
+.img{
+    background-size: cover;
+    min-width: 100px;
+    max-width: 100%;
+    height: 50vh;
+    text-align: center;
+    margin-top: 180px;
+}
+.image{
+    display: none;
+}
+@media screen and (min-width:756px) {
+    .image{
+        display: block;
+    }
+    
+}
+.img2{
+    background-size: cover;
+    min-width: 100px;
+    max-width: 100%;
+    height: 50vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+     
+}
+h1{
+    font-size: medium;
+    padding: 15px;
+}
+p{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    color: #757677;
+}
+.phone {
+    color: #959ead;
+    margin: 2px;
+    margin-right: 5px;
+}
+
+.image {
+    height: 70px;
+    width: 80px;
+}
+
+#item1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#item2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#item3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#item4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#item5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+.shop{
+    height: 25px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-label.required:after {
+    content: " *";
+    color: #dc3545; 
+  }
+
+  .invalid-feedback {
+    color: #dc3545; 
+    font-size: 14px;
+  }
+  #contactSection {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+ }
+ #contactSection h2 {
+    text-align: center;
+ }
+ #contactSection ul {
+    list-style: none;
+    padding: 0;
+ }
+ #contactSection ul li {
+    margin-bottom: 10px;
+ }
+ #contactForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ .address{
+    text-align: center;
+    color: #878a8b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
